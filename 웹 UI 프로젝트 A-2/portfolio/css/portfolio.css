@@ -1,0 +1,480 @@
+* {
+  font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+}
+
+body {
+  margin : 0;
+}
+
+.wrapper{
+  background-color: #000;
+  width: 100%;
+  height: 120px;
+}
+
+.main {
+  width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+header {
+  width: 1080px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 40px;
+  color: #fff;
+  padding-left: 40px;
+  margin-top: 0;
+  line-height: 120px;
+}
+
+.navigation {
+  text-align: center;
+  margin: auto 40px;
+}
+
+.list {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  justify-content: space-between;
+}
+
+.list>li {
+  border: 1px solid #d1d1d1;
+  line-height: 33px;
+  width: 322px;
+  list-style: none;
+}
+
+.list>li>a {
+  display: block;
+  flex: auto;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  background-color: #FFF;
+  list-style: none;
+}
+
+.list>li:first-child {
+  margin-right: 14px;
+}
+
+.list>li:last-child {
+  margin-left: 14px;
+}
+
+.list>li:hover{
+  border-color: #454545;
+  font-weight: bold;
+}
+
+.article{
+  padding: 40px 40px 0;
+}
+
+.section_head {
+  font-size: 14px;
+  margin: 40px 0 10px;
+}
+
+.section_head:first-child {
+  margin: 0 0 10px;
+}
+
+.item {
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom : 1px solid #454545;
+  margin: 0 auto;
+}
+
+.form {
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f7f7;
+  border: 1px solid #d1d1d1;
+  margin: 0 auto;
+  line-height: 46px;
+  padding-left: 15px;
+}
+
+.hr2 {
+  margin-top: 0;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+}
+
+.contents{
+  font-size: 12px;
+  padding:30px 30px;
+  border: 1px solid #d1d1d1;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+.card{
+  padding-top:30px;
+}
+
+caption {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.col1 {
+  width: 15%;
+}
+
+.col2 {
+  width: 10%;
+}
+
+.col4 {
+  width: 20%;
+}
+
+.table1, table2{
+  text-align: center;
+  line-height: 33px;
+  background-color: #fbfbfb;
+  width: 100%;
+  color: #555;
+  border-collapse: collapse;
+  margin: 0 0 30px 0;
+}
+
+table.table1 th, table.table1 td {
+  border: 1px solid #e4e4e4;
+}
+
+
+.table2 {
+  border-collapse: collapse;
+  line-height: 33px;
+  width: 100%;
+  text-align: center;
+}
+
+.table2 thead, .table2 tfoot {
+  border-top: 2px solid #a5a5a5;
+  border-bottom : 1px solid #e4e4e4;
+}
+
+.table2 tfoot{
+  font-weight: bold;
+}
+
+.table2 tbody th, .table2 thead th {
+  font-weight: normal;
+}
+
+.table2 td {
+  text-align: right;
+  width: 60px;
+  padding-right: 65px;
+}
+
+/* 회원가입 */
+.myform {
+  display: flex;
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  padding: 20px 20px;
+}
+
+form, .form_input {
+    line-height: 25px;
+    width: 100%;
+ 
+}
+
+.form_head {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.radio-inline, .check_style, select{
+    font-size: 12px;
+}
+
+.birthday{
+    display: flex;
+}
+
+select {
+  height: 33px;
+  flex: 1;
+}
+
+select:first-child {
+  margin-right: 14px;
+}
+
+select:last-child {
+  margin-left: 14px;
+}
+
+.radio {
+  padding-right: 50px;
+}
+
+.form_box {
+    display: flex;
+    width: 100%;
+}
+
+.flex_item{
+    flex: 1;
+}
+
+.check_style {
+    flex: 1;
+}
+
+#anumber {
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  font-size: 12px;
+  color: #fff;
+  line-height: 25px;    
+  margin-left: 10px;
+  width: 20%;
+  cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form_block{
+  margin-bottom: 5px;
+}
+#join_btn {
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;    
+  width: 100%;
+  cursor: pointer;
+}
+
+.project {
+  border: 1px solid #e4e4e4;
+  padding: 20px 0;
+}
+
+.projectheading {
+  font-size: 32px;
+  text-align: center;
+}
+
+dl {
+  line-height: 160%;
+  margin: 20px 20px;
+}
+dt {
+  display: inline;
+}
+
+.ddbr {
+  margin-bottom: 15px;
+}
+.dtheading {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.style1 {
+  font-size: 12px;
+  color: #559bfa;
+  font-weight: bold;
+}
+
+
+
+.livekeywords, .cookie, .news {
+  border: 1px solid #e4e4e4;
+}
+
+.livekeywords {
+  width: 25%;
+}
+
+.livekeyword>li {
+  list-style: none;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+.livekeyword>li:last-child{
+  margin-bottom: 0;
+}
+
+.livekeyword>li>a {
+  text-decoration: none;
+  font-size: 12px;
+  color:#000;
+}
+
+.num {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  border: 1px solid #e0e0e0;
+  font-size: 10px;
+  color: #666;
+ text-align: center;
+}
+
+.tit {
+  padding-left: 3%;
+}
+
+.tit:hover {
+  text-decoration: underline;
+}
+
+.style3 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.style4 {
+  font-size: 12px;
+  color: #ec5336;
+}
+
+.buylink {
+  color: #559bfa;
+  text-decoration-line: underline;
+}
+
+/* 실시간 검색어 */
+.livekeyword {
+  margin: 0;
+  padding: 20px;
+}
+
+/* 쿠키 이용안내 */
+.cookie {
+  line-height: 200%;
+  margin: 0;
+  padding: 20px 20px 20px 40px;
+}
+
+
+
+/* 뉴스부터 */
+
+.list_news {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.newsimage {
+  float: left;
+  padding-right: 10px;
+}
+
+.news_thumb {
+  color: #00c;
+}
+
+.list_news>li>dl>dt {
+  font-size: 14px;
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+
+#news2>dl{
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 0;
+}
+
+/* 웹툰 */
+.webtoon {
+  border: 1px solid #e4e4e4;
+  padding: 20px 21px 20px 20px;
+  margin: 0 0;
+}
+
+.webtoon>ul>li>a>h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+}
+
+.webtoon>ul {
+  padding: 0 0;
+  overflow: auto;
+  list-style: none;
+  margin: 0 0;
+  line-height: 150%;
+}
+
+.webtoon>ul>li {
+  float: left;
+  margin: auto 20px 20px auto;
+}
+
+.webtoon>ul>li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.webtoon>ul>li>a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+}
+
+.webtoon>ul>li>a:hover {
+  text-decoration: underline;
+}
+
+
+.cuttoon {
+  border: 1px solid #71b036;
+  background-color: #80c83d;
+  font-size: 10px;
+  color: #fff;
+  margin-right: 3px;
+}
+
+.smarttoon {
+  border: 1px solid #df4e28;
+  background-color: #ec5336;
+  font-size: 10px;
+  color: #fff;
+  margin-right: 3px;
+}
+footer {
+  margin-top: 0;
+  text-align: center;
+}
+
+footer>a {
+  text-decoration: none;
+  color:#999;
+  font-size: 12px;
+}
+
+.copyright{
+  font-size: 12px;
+  text-align: center;
+}
